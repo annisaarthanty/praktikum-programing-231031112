@@ -19,12 +19,12 @@
   `praktikum-d7.py`
 * Praktikum 8 : Perulangan
   `praktikum-d8.py`
-* Praktikum Dictionaries
+* Tugas Dictionaries
   `231031112-annisa arthanty-tugas-9-D.py`
-* Praktikum If Else
+* Tugas If Else
   `231031112-annisa arthanty-tugas1-10-D.py`
   `231031112-annisa arthanty-tugas2-10-D.py`
-* Praktikum Percabangan
+* Tugas Percabangan
   `231031112_annisa arthanty_percabangan1.py`
   `231031112_annisa arthanty_percabangan2.py`
   `231031112_annisa arthanty_percabangan3.py`
