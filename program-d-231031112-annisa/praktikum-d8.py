@@ -1,47 +1,30 @@
 pwd_benar = 'si23d'
 pwd_benar2 = 'SI23D'
 pwd_benar3 = 's123d'
-a = True
-limit = 3
-i = 0
 
-while a:
-    i += 1
-    pwd = input('Masukkan Password= ')
-    if pwd == pwd_benar:
-        print('Password Benar, Selamat Datang di halaman 1')
-        a = True
-        pwd2 = input('Masukkan Password 2= ')
-        if pwd2 == pwd_benar2:
-            print('Password Benar, Selamat Datang di halaman 2')
-            a = True       
-            pwd3 = input('Masukkan Password 3= ')
-            if pwd3 == pwd_benar3:
-                print('Password Benar, Selamat Anda Berhasil Login')
-                a = True
-            else :
-                print('Password salah, anda gagal pada halaman 3')
-                a = True
-    else:
-        if i == limit:
-            print('Kesempatan Anda Habis!')
-            a = False
+def cekpass(id_password, password, page):
+    limit = 3
+    i = 0
+    while i < limit:
+        pwd = input(f'Masukkan Password {id_password} untuk Halaman {page}= ')
+        if pwd == password:  
+            print(f'Password Benar, Selamat Datang di Halaman {page}')
+            return True
         else:
-            print(f'Kesempatan anda tersisa {limit-i} kali')
-            a = True
-           
+            i += 1
+            if i == limit:
+                print('Kesempatan Anda Habis!')
+                return False
+            else:
+                print(f'Password Salah. Kesempatan anda tersisa {limit - i} kali')
 
-            
-            
-
-# Tugas: Buat Password Berlapis 3
-# jika Salah pertama: Password salah, anda gagal pada halaman 1
-# jika Salah ke-2: Password salah, anda gagal pada halaman 2
-# jika Salah ke-3: Password salah, anda gagal pada halaman 3
-
-# jika Benar Pertama: Password Benar, Selamat Datang di halaman 1
-# jika Benar ke-2: Password Benar, Selamat Datang di halaman 2
-# jika Benar ke-3: Password Benar, Selamat Anda Berhasil Login
-
-# Tiap halaman, memiliki kesempatan 3 kali masukkan password
-
+# Tes password pertama
+tes1 = cekpass('pertama', 'si23d', 1)
+if tes1:
+    # Tes password kedua
+    tes2 = cekpass('kedua', 'SI23D', 2)
+    if tes2:
+        # Tes password ketiga
+        tes3 = cekpass('ketiga', 's123d', 3)
+        if tes3:
+            print('Selamat Anda Berhasil Login')
