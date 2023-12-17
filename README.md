@@ -27,13 +27,13 @@
     * b. jam
   `231031112-annisa arthanty-tugas2-10-D.py`
 * Tugas Percabangan
-* 1. Batasan Nilai
+    * 1. Batasan Nilai
   `231031112_annisa arthanty_percabangan1.py`
-* 2. Panjang str
+    * 2. Panjang str
   `231031112_annisa arthanty_percabangan2.py`
-* 3. Batasan Pendapatan
+    * 3. Batasan Pendapatan
   `231031112_annisa arthanty_percabangan3.py`
-* 4. Persentase
+    * 4. Persentase
   `231031112_annisa arthanty_percabangan4.py`
 * UTS
   `231031112-middle-SID.py`
