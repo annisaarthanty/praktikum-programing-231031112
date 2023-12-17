@@ -22,9 +22,9 @@
 * Tugas 1 : Dictionaries
   `231031112-annisa arthanty-tugas-9-D.py`
 * Tugas 2 :
-* a. ganjil-genap
+    * a. ganjil-genap
   `231031112-annisa arthanty-tugas1-10-D.py`
-   b. jam
+    * b. jam
   `231031112-annisa arthanty-tugas2-10-D.py`
 * Tugas Percabangan
 * 1. Batasan Nilai
